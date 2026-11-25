@@ -20,8 +20,25 @@ nav ul{
 }
 
 .text-image{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 610px;
+    height: 36px;
     top: 270px;
     left: 410px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.text{
+    display: flex;
+    width: 650px;
+    height: 56px;
+    top: 328px;
+    left: 395px;
+    position: absolute;
+    color: #FFFFFF;
     z-index: 2;
 }
 
@@ -39,4 +56,10 @@ nav ul{
     color: #FFFFFF;
     border-radius: 6px;
     background-color: #2F80ED;
+}
+
+.select-menu{
+    width: 1,030px;
+    height: 64px;
+    border-radius: 8px;
 }
