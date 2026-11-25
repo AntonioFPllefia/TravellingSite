@@ -1,0 +1,31 @@
+body{
+    padding: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.boton1{
+    width: 92px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    border-color: #2F80ED;
+}
+
+.boton2{
+    width: 82px;
+    height: 40px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    background-color: #2F80ED;
+}
