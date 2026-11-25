@@ -14,6 +14,11 @@ nav ul{
     gap: 10px;
 }
 
+img{
+    display: flex;
+    align-items: center;
+}
+
 .boton1{
     width: 92px;
     height: 40px;
