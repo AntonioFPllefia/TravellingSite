@@ -14,9 +14,15 @@ nav ul{
     gap: 10px;
 }
 
-img{
-    display: flex;
-    align-items: center;
+.image{
+    object-fit: cover;
+    z-index: 1;
+}
+
+.text-image{
+    top: 270px;
+    left: 410px;
+    z-index: 2;
 }
 
 .boton1{
