@@ -46,6 +46,7 @@ nav ul{
     width: 92px;
     height: 40px;
     background-color: #FFFFFF;
+    color: #000000;
     border-radius: 1px;
     border-color: #2F80ED;
 }
@@ -59,7 +60,26 @@ nav ul{
 }
 
 .select-menu{
-    width: 1,030px;
-    height: 64px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #F1F1F1F1;
+    border: 1px solid transparent;
     border-radius: 8px;
+    padding: 8px 12px;
+    width: 1030px;
+    height: 64px;
+    position: absolute;
+    z-index: 2;
+}
+
+button{
+    width: 148px;
+    height: 44px;
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    border-radius: 6px;
+    top: 12px;
+    left: 12px;
+    z-index: 2;
 }
